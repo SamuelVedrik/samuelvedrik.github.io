@@ -9,10 +9,63 @@
         <link rel="stylesheet" href="main.css">
     </head>
 
-    <body>
-        <h1> Samuel Vedrik </h1>
+    <body class="background main-container">
+        <div class="header-container">
+            <h1 id="name"> Samuel Vedrik </h1>
+            <p id="description">Data Scientist</p>
+            <div class="contacts-container">
+                <i data-feather="github" class="contact"></i>
+                <i data-feather="linkedin" class="contact"></i>
+                <i data-feather="mail" class="contact"></i>
+            </div>
+        </div>
+
+        <div class="codeblock-container">
+            <div class="code-in">
+                <div class="codetext">In[1]</div>
+            </div>
+
+            <div class="codeblock">
+                <p class="codetext">
+                    sam = DataScientist(
+                </br>
+                &nbsp <span class="codevar">name</span>=<span class="codestring">"Samuel Vedrik"</span>,
+                </br>
+                &nbsp <span class="codevar">location</span>=<span class="codestring">"Toronto"</span>,
+                </br>
+                &nbsp <span class="codevar">pronouns</span>=<span class="codestring">"He / Him"</span>
+                </br>
+                    )
+            </br>
+                    sam.display_introduction()
+                </p>
+            </div>
+        </div>
+
+        <div class="codeblock-container extraspace">
+            <div id="aboutme">
+                <div id="aboutme-header">
+
+                    <div class="headshot">
+                        <img src="assets/imgs/it_me.jpeg"> 
+                    </div>
+                    <h3 id="aboutme-header-text"> About Me </h3>
+                </div>
+
+                <p class="document-text"> 
+                    My name is Samuel Vedrik. YeeHaw
+
+                </p>
+            </div>
+        </div>
+        
+
     </body>
 
+    <script src="assets/lib/feather.min.js"></script>
 
+    <script>
+        feather.replace()
+    </script>
 
 </html>
