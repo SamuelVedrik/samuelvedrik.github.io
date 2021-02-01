@@ -32,7 +32,7 @@
 
         <div class="codeblock-container">
             <div class="code-in">
-                <div class="codetext">In[1]</div>
+                <div class="codetext">In[1]:</div>
             </div>
 
             <div class="codeblock">
@@ -53,24 +53,174 @@
         </div>
 
         <div class="codeblock-container extraspace">
-            <div id="aboutme">
+            <div class="info-container">
                 <div id="aboutme-header">
 
                     <div class="headshot">
                         <img src="assets/imgs/it_me.jpeg"> 
                     </div>
-                    <h3 id="aboutme-header-text"> About Me </h3>
+                    <h3 class="header-text"> About Me </h3>
                 </div>
 
                 <p class="document-text"> 
-                    My name is Samuel Vedrik. YeeHaw
+                    Hi! I'm Samuel Vedrik, and I'm an Indonesian Data Science undergrad at UofT.
+                    I wanted to express my love for math and computer science, so here I am in Data Science limbo.
+                </br>
+                </br>
+                    You can view some of my projects in my Github, and you are welcome to connect with me on linkedin. I always
+                    love networking with new people!
+                </br>
+                    Also, feel free to check out my 
+                    <a href="https://drive.google.com/file/d/1J1Fb-mMaWz29QewfV1w6CY05YWV2p9OA/view?usp=sharing">
+                        resume
+                    </a>!
 
+                    </p>
+            </div>
+        </div>
+
+        <div class="codeblock-container extraspace">
+            <div class="code-in">
+                <div class="codetext">In[2]:</div>
+            </div> 
+
+            <div class="codeblock">
+                <p class="codetext">
+                    skills = pd.read_csv(<span class="codestring">"./sam_skills.csv"</span>)
+                </br>
+                    skills.head()
+                </p>
+            </div>
+        </div>
+
+        <div class="codeblock-container extraspace">
+            <div class="info-container">
+                <div>
+                    <h3 class="header-text">Skills</h3>
+                </div>
+                <div class="skill-header">
+                    <i data-feather="code"></i>
+                    <div class="document-text skill-header-text"> Languages</div>
+                </div>
+                <p class="document-text skill-description">
+                    > Python, JavaScript, R, Java
+                </p>
+
+                <div class="skill-header">
+                    <i data-feather="database"></i>
+                    <div class="document-text skill-header-text"> Data Manipulation</div>
+                </div>
+                <p class="document-text skill-description">
+                    > pandas, numpy, SQL, tidyverse
+                </p>
+
+                <div class="skill-header">
+                    <i data-feather="bar-chart-2"></i>
+                    <div class="document-text skill-header-text"> Data Visualization</div>
+                </div>
+                <p class="document-text skill-description">
+                    > matplotlib, seaborn, plotly, ggplot2
+                </p>
+
+                <div class="skill-header">
+                    <i data-feather="cpu"></i>
+                    <div class="document-text skill-header-text"> ML/DL</div>
+                </div>
+                <p class="document-text skill-description">
+                    > sklearn, XGBoost, NLTK 
+                </br>
+                    > Pytorch, TensorFlow 2, JAX
+                </p>
+            </div>
+        </div>
+
+
+        <div class="codeblock-container extraspace">
+            <div class="code-in">
+                <div class="codetext">In[3]:</div>
+            </div> 
+
+            <div class="codeblock">
+                <p class="codetext">
+                    sam.past_experiences()
                 </p>
             </div>
         </div>
         
+        <div class="codeblock-container extraspace">
+            <div class="info-container">
+                <h3 class="header-text">Past Experience</h3>
+                <p class="document-text">In the past (and maybe present!), 
+                    I had the pleasure of working with these companies:
+                </p>
+
+                <div class="past-company">
+                    <div class="past-company-img">
+                        <a href="http://www.stratum.ai">
+                            <img src="assets/imgs/stratum-AI.png" alt="_blank">
+                        </a>
+                    </div>
+                    <div class="past-company-desc">
+                        <div class="past-company-name document-text"> <u>Stratum AI | Data Scientist</u></div>
+                        <div class="document-text"><em>Jan 2021 - present</em></div>
+                        <p class="document-text smaller">
+                            Although we are a small team based in Toronto, we have big ambitions. Currently, I am responsible for 
+                            streamlining and refractoring the preprocessing of raw data. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="past-company">
+                    <div class="past-company-img">
+                        <a href="https://www.utoronto.ca">
+                            <img src="assets/imgs/uoft.png" alt="_blank">
+                        </a>
+                    </div>
+                    <div class="past-company-desc">
+                        <div class="past-company-name document-text"> <u>UofT | Teaching Assistant</u></div>
+                        <div class="document-text"><em>Jan 2021 - present</em></div>
+                        <p class="document-text smaller">
+                            I ran office hours as a Teaching Assistant for CSC148 Introduction to computer science
+                            in the winter 2021 semester, interacting with students and helping them 
+                            with specific questions. I was also responsible for marking some assignments.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="past-company">
+                    <div class="past-company-img">
+                        <a href="https://www.bhinneka.com">
+                            <img src="assets/imgs/bhinneka.jpg" alt="_blank">
+                        </a>
+                    </div>
+                    <div class="past-company-desc">
+                        <div class="past-company-name document-text"> <u>Bhinneka.com | Data Science Intern</u></div>
+                        <div class="document-text"><em>May 2020 - Sep 2020</em></div>
+                        <p class="document-text smaller">
+                           As a part of the RnD team, I helped create a prototype model that would help future merchants 
+                           categorize their products after uploading the images and or descriptions. I also bought my laptop
+                           here! 
+                        </p>
+                    </div>
+                </div>
+
+
+
+                    
+                
+            </div>
+        </div>
+
 
     </body>
+
+    <footer>
+    </br>
+        <div class="document-text smaller"> &copy Samuel Vedrik 2021</div>
+        <div class="document-text smaller">Check out my talented friend 
+            <a href="https://oliver.danielnet.ca">Oliver Daniel</a> who helped me design this page!</div>
+        
+    </footer>
 
     <script src="assets/lib/feather.min.js"></script>
 
