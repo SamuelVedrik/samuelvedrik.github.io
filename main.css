@@ -125,17 +125,19 @@
 }
 
 .extraspace{
-    margin-top: 6%;
+    margin-top: 60px;
 }
 
 .headshot{
-    border-radius: 100px;
+    border-radius: 200%;
+    min-width: 100px;
     width: 100px;
     height: 100px;
     overflow: hidden; 
     border: solid 1px black;
     margin-top: -50px;
 }
+
 
 .headshot img {
     width: 300px;
