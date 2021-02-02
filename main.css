@@ -55,6 +55,9 @@
     align-items: center;
     /* border-bottom: solid 2px black; */
     position: sticky;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px 4px 0px;
     top: 0;
     /* border-top: solid 2px black; */
 }
@@ -63,8 +66,7 @@
     content: '';
     position: absolute;
     top: 100%;
-    left: 0;
-    width: 100%;
+    width: 50%;
     height: 2px;
     background-color: black;
     opacity: 0.35;
@@ -81,13 +83,27 @@
     justify-content: center;
     align-items: center;
     margin-top: 2%;
-    width: 45%;
+    width: 300px;
+}
+
+@media only screen and (min-width: 700px){
+    .codeblock-container{
+        width: 45%;
+    }
 }
 
 .code-in{
     position: absolute;
-    left: 15%;
+    left: 60px;
 }
+
+@media only screen and (min-width: 700px){
+    .code-in{
+        position: absolute;
+        left: 15%
+    }
+}
+
 
 .codetext{
     font-family: 'Ubuntu Mono', monospace;
