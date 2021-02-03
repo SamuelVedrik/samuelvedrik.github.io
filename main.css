@@ -95,12 +95,14 @@
 .code-in{
     position: absolute;
     left: 60px;
+    opacity: 0;
 }
 
 @media only screen and (min-width: 700px){
     .code-in{
         position: absolute;
-        left: 15%
+        left: 15%;
+        opacity: 1;
     }
 }
 
