@@ -219,3 +219,19 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+a.meme-link:link{
+    color: white;
+    text-decoration: none
+}
+
+a.meme-link:visited{
+    color: white;
+    text-decoration: none
+}
+
+a.meme-link:hover {
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: none;
+  }
